@@ -1,0 +1,688 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+  ],
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::conv2d", "pid": 23200, "tid": 27408,
+    "ts": 5283217355555.742, "dur": 128.500,
+    "args": {
+      "External id": 513,"Record function id": 0, "Sequence number": 69, "Ev Idx": 0, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217355559.742, "dur": 123.800,
+    "args": {
+      "External id": 514,"Record function id": 0, "Sequence number": 69, "Ev Idx": 1, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217355576.442, "dur": 103.600,
+    "args": {
+      "External id": 515,"Record function id": 0, "Ev Idx": 2
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::thnn_conv2d", "pid": 23200, "tid": 27408,
+    "ts": 5283217355585.642, "dur": 93.400,
+    "args": {
+      "External id": 516,"Record function id": 0, "Ev Idx": 3
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_slow_conv2d_forward", "pid": 23200, "tid": 27408,
+    "ts": 5283217355587.542, "dur": 91.100,
+    "args": {
+      "External id": 517,"Record function id": 0, "Ev Idx": 4
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355589.442, "dur": 2.700,
+    "args": {
+      "External id": 518,"Record function id": 0, "Ev Idx": 5
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::view", "pid": 23200, "tid": 27408,
+    "ts": 5283217355595.742, "dur": 4.300,
+    "args": {
+      "External id": 519,"Record function id": 0, "Ev Idx": 6
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355601.842, "dur": 3.200,
+    "args": {
+      "External id": 520,"Record function id": 0, "Ev Idx": 7
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resize_", "pid": 23200, "tid": 27408,
+    "ts": 5283217355626.542, "dur": 2.800,
+    "args": {
+      "External id": 521,"Record function id": 0, "Ev Idx": 8
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::batch_norm", "pid": 23200, "tid": 27408,
+    "ts": 5283217355716.242, "dur": 60.200,
+    "args": {
+      "External id": 522,"Record function id": 0, "Sequence number": 70, "Ev Idx": 9, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_batch_norm_impl_index", "pid": 23200, "tid": 27408,
+    "ts": 5283217355718.942, "dur": 56.900,
+    "args": {
+      "External id": 523,"Record function id": 0, "Sequence number": 70, "Ev Idx": 10, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355721.842, "dur": 1.100,
+    "args": {
+      "External id": 524,"Record function id": 0, "Ev Idx": 11
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::native_batch_norm", "pid": 23200, "tid": 27408,
+    "ts": 5283217355725.242, "dur": 49.800,
+    "args": {
+      "External id": 525,"Record function id": 0, "Sequence number": 70, "Ev Idx": 12, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_like", "pid": 23200, "tid": 27408,
+    "ts": 5283217355734.842, "dur": 3.600,
+    "args": {
+      "External id": 526,"Record function id": 0, "Ev Idx": 13
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355736.742, "dur": 1.200,
+    "args": {
+      "External id": 527,"Record function id": 0, "Ev Idx": 14
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355740.042, "dur": 0.700,
+    "args": {
+      "External id": 528,"Record function id": 0, "Ev Idx": 15
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355741.642, "dur": 0.400,
+    "args": {
+      "External id": 529,"Record function id": 0, "Ev Idx": 16
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355745.642, "dur": 0.900,
+    "args": {
+      "External id": 530,"Record function id": 0, "Ev Idx": 17
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355747.442, "dur": 0.700,
+    "args": {
+      "External id": 531,"Record function id": 0, "Ev Idx": 18
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::relu_", "pid": 23200, "tid": 27408,
+    "ts": 5283217355789.842, "dur": 30.000,
+    "args": {
+      "External id": 532,"Record function id": 0, "Sequence number": 71, "Ev Idx": 19, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::clamp_min_", "pid": 23200, "tid": 27408,
+    "ts": 5283217355794.942, "dur": 15.900,
+    "args": {
+      "External id": 533,"Record function id": 0, "Ev Idx": 20
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::conv2d", "pid": 23200, "tid": 27408,
+    "ts": 5283217355849.242, "dur": 404.600,
+    "args": {
+      "External id": 534,"Record function id": 0, "Sequence number": 72, "Ev Idx": 21, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217355850.542, "dur": 402.800,
+    "args": {
+      "External id": 535,"Record function id": 0, "Sequence number": 72, "Ev Idx": 22, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217355855.542, "dur": 395.600,
+    "args": {
+      "External id": 536,"Record function id": 0, "Ev Idx": 23
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mkldnn_convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217355860.042, "dur": 390.300,
+    "args": {
+      "External id": 537,"Record function id": 0, "Ev Idx": 24
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217355865.242, "dur": 1.100,
+    "args": {
+      "External id": 538,"Record function id": 0, "Ev Idx": 25
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356211.642, "dur": 1.400,
+    "args": {
+      "External id": 539,"Record function id": 0, "Ev Idx": 26
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356242.642, "dur": 3.400,
+    "args": {
+      "External id": 540,"Record function id": 0, "Ev Idx": 27
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resize_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356247.342, "dur": 0.500,
+    "args": {
+      "External id": 541,"Record function id": 0, "Ev Idx": 28
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::batch_norm", "pid": 23200, "tid": 27408,
+    "ts": 5283217356275.342, "dur": 31.800,
+    "args": {
+      "External id": 542,"Record function id": 0, "Sequence number": 73, "Ev Idx": 29, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_batch_norm_impl_index", "pid": 23200, "tid": 27408,
+    "ts": 5283217356276.542, "dur": 30.100,
+    "args": {
+      "External id": 543,"Record function id": 0, "Sequence number": 73, "Ev Idx": 30, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356278.242, "dur": 0.900,
+    "args": {
+      "External id": 544,"Record function id": 0, "Ev Idx": 31
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::native_batch_norm", "pid": 23200, "tid": 27408,
+    "ts": 5283217356280.542, "dur": 25.500,
+    "args": {
+      "External id": 545,"Record function id": 0, "Sequence number": 73, "Ev Idx": 32, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_like", "pid": 23200, "tid": 27408,
+    "ts": 5283217356288.142, "dur": 2.700,
+    "args": {
+      "External id": 546,"Record function id": 0, "Ev Idx": 33
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356289.442, "dur": 1.000,
+    "args": {
+      "External id": 547,"Record function id": 0, "Ev Idx": 34
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356291.842, "dur": 0.500,
+    "args": {
+      "External id": 548,"Record function id": 0, "Ev Idx": 35
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356293.242, "dur": 0.600,
+    "args": {
+      "External id": 549,"Record function id": 0, "Ev Idx": 36
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356295.942, "dur": 1.100,
+    "args": {
+      "External id": 550,"Record function id": 0, "Ev Idx": 37
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356297.942, "dur": 0.600,
+    "args": {
+      "External id": 551,"Record function id": 0, "Ev Idx": 38
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::relu_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356316.242, "dur": 16.900,
+    "args": {
+      "External id": 552,"Record function id": 0, "Sequence number": 74, "Ev Idx": 39, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::clamp_min_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356318.642, "dur": 10.300,
+    "args": {
+      "External id": 553,"Record function id": 0, "Ev Idx": 40
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::conv2d", "pid": 23200, "tid": 27408,
+    "ts": 5283217356342.642, "dur": 317.100,
+    "args": {
+      "External id": 554,"Record function id": 0, "Sequence number": 75, "Ev Idx": 41, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217356344.042, "dur": 315.200,
+    "args": {
+      "External id": 555,"Record function id": 0, "Sequence number": 75, "Ev Idx": 42, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217356348.342, "dur": 309.200,
+    "args": {
+      "External id": 556,"Record function id": 0, "Ev Idx": 43
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mkldnn_convolution", "pid": 23200, "tid": 27408,
+    "ts": 5283217356352.042, "dur": 304.800,
+    "args": {
+      "External id": 557,"Record function id": 0, "Ev Idx": 44
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356354.642, "dur": 1.000,
+    "args": {
+      "External id": 558,"Record function id": 0, "Ev Idx": 45
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356624.542, "dur": 1.400,
+    "args": {
+      "External id": 559,"Record function id": 0, "Ev Idx": 46
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356651.942, "dur": 1.700,
+    "args": {
+      "External id": 560,"Record function id": 0, "Ev Idx": 47
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resize_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356654.542, "dur": 0.500,
+    "args": {
+      "External id": 561,"Record function id": 0, "Ev Idx": 48
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::batch_norm", "pid": 23200, "tid": 27408,
+    "ts": 5283217356675.942, "dur": 29.700,
+    "args": {
+      "External id": 562,"Record function id": 0, "Sequence number": 76, "Ev Idx": 49, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_batch_norm_impl_index", "pid": 23200, "tid": 27408,
+    "ts": 5283217356677.142, "dur": 28.000,
+    "args": {
+      "External id": 563,"Record function id": 0, "Sequence number": 76, "Ev Idx": 50, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356678.642, "dur": 0.900,
+    "args": {
+      "External id": 564,"Record function id": 0, "Ev Idx": 51
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::native_batch_norm", "pid": 23200, "tid": 27408,
+    "ts": 5283217356680.642, "dur": 23.900,
+    "args": {
+      "External id": 565,"Record function id": 0, "Sequence number": 76, "Ev Idx": 52, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_like", "pid": 23200, "tid": 27408,
+    "ts": 5283217356686.942, "dur": 2.500,
+    "args": {
+      "External id": 566,"Record function id": 0, "Ev Idx": 53
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356687.942, "dur": 1.100,
+    "args": {
+      "External id": 567,"Record function id": 0, "Ev Idx": 54
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356690.442, "dur": 0.500,
+    "args": {
+      "External id": 568,"Record function id": 0, "Ev Idx": 55
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356691.742, "dur": 1.000,
+    "args": {
+      "External id": 569,"Record function id": 0, "Ev Idx": 56
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356694.542, "dur": 0.800,
+    "args": {
+      "External id": 570,"Record function id": 0, "Ev Idx": 57
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty", "pid": 23200, "tid": 27408,
+    "ts": 5283217356696.142, "dur": 0.900,
+    "args": {
+      "External id": 571,"Record function id": 0, "Ev Idx": 58
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::add_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356711.642, "dur": 18.300,
+    "args": {
+      "External id": 572,"Record function id": 0, "Sequence number": 77, "Ev Idx": 59, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::relu_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356736.642, "dur": 9.500,
+    "args": {
+      "External id": 573,"Record function id": 0, "Sequence number": 78, "Ev Idx": 60, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::clamp_min_", "pid": 23200, "tid": 27408,
+    "ts": 5283217356738.642, "dur": 4.600,
+    "args": {
+      "External id": 574,"Record function id": 0, "Ev Idx": 61
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mean", "pid": 23200, "tid": 27408,
+    "ts": 5283217357064.442, "dur": 68.100,
+    "args": {
+      "External id": 575,"Record function id": 0, "Sequence number": 79, "Ev Idx": 62, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::sum", "pid": 23200, "tid": 27408,
+    "ts": 5283217357073.942, "dur": 34.700,
+    "args": {
+      "External id": 576,"Record function id": 0, "Ev Idx": 63
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided", "pid": 23200, "tid": 27408,
+    "ts": 5283217357077.042, "dur": 1.600,
+    "args": {
+      "External id": 577,"Record function id": 0, "Ev Idx": 64
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::fill_", "pid": 23200, "tid": 27408,
+    "ts": 5283217357096.542, "dur": 2.800,
+    "args": {
+      "External id": 578,"Record function id": 0, "Ev Idx": 65
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::div_", "pid": 23200, "tid": 27408,
+    "ts": 5283217357110.142, "dur": 20.400,
+    "args": {
+      "External id": 579,"Record function id": 0, "Ev Idx": 66
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::div_", "pid": 23200, "tid": 27408,
+    "ts": 5283217357113.142, "dur": 17.100,
+    "args": {
+      "External id": 580,"Record function id": 0, "Ev Idx": 67
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::to", "pid": 23200, "tid": 27408,
+    "ts": 5283217357116.242, "dur": 11.000,
+    "args": {
+      "External id": 581,"Record function id": 0, "Ev Idx": 68
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::_to_copy", "pid": 23200, "tid": 27408,
+    "ts": 5283217357117.742, "dur": 9.300,
+    "args": {
+      "External id": 582,"Record function id": 0, "Ev Idx": 69
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::empty_strided", "pid": 23200, "tid": 27408,
+    "ts": 5283217357120.442, "dur": 2.000,
+    "args": {
+      "External id": 583,"Record function id": 0, "Ev Idx": 70
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::copy_", "pid": 23200, "tid": 27408,
+    "ts": 5283217357123.542, "dur": 3.100,
+    "args": {
+      "External id": 584,"Record function id": 0, "Ev Idx": 71
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::linear", "pid": 23200, "tid": 27408,
+    "ts": 5283217357152.342, "dur": 470.100,
+    "args": {
+      "External id": 585,"Record function id": 0, "Sequence number": 80, "Ev Idx": 72, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::t", "pid": 23200, "tid": 27408,
+    "ts": 5283217357154.642, "dur": 9.200,
+    "args": {
+      "External id": 586,"Record function id": 0, "Sequence number": 80, "Ev Idx": 73, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::transpose", "pid": 23200, "tid": 27408,
+    "ts": 5283217357158.442, "dur": 2.900,
+    "args": {
+      "External id": 587,"Record function id": 0, "Ev Idx": 74
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided", "pid": 23200, "tid": 27408,
+    "ts": 5283217357159.742, "dur": 1.300,
+    "args": {
+      "External id": 588,"Record function id": 0, "Ev Idx": 75
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 23200, "tid": 27408,
+    "ts": 5283217357572.842, "dur": 49.300,
+    "args": {
+      "External id": 589,"Record function id": 0, "Sequence number": 81, "Ev Idx": 76, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 23200, "tid": 27408,
+    "ts": 5283217357580.742, "dur": 41.000,
+    "args": {
+      "External id": 590,"Record function id": 0, "Sequence number": 81, "Ev Idx": 77, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resolve_conj", "pid": 23200, "tid": 27408,
+    "ts": 5283217357612.942, "dur": 0.400,
+    "args": {
+      "External id": 591,"Record function id": 0, "Ev Idx": 78
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resolve_conj", "pid": 23200, "tid": 27408,
+    "ts": 5283217357614.342, "dur": 0.000,
+    "args": {
+      "External id": 592,"Record function id": 0, "Ev Idx": 79
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::relu", "pid": 23200, "tid": 27408,
+    "ts": 5283217357643.342, "dur": 431.100,
+    "args": {
+      "External id": 593,"Record function id": 0, "Sequence number": 82, "Ev Idx": 80, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::clamp_min", "pid": 23200, "tid": 27408,
+    "ts": 5283217358061.442, "dur": 8.400,
+    "args": {
+      "External id": 594,"Record function id": 0, "Ev Idx": 81
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::linear", "pid": 23200, "tid": 27408,
+    "ts": 5283217358089.142, "dur": 18.400,
+    "args": {
+      "External id": 595,"Record function id": 0, "Sequence number": 83, "Ev Idx": 82, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::t", "pid": 23200, "tid": 27408,
+    "ts": 5283217358090.042, "dur": 7.300,
+    "args": {
+      "External id": 596,"Record function id": 0, "Sequence number": 83, "Ev Idx": 83, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::transpose", "pid": 23200, "tid": 27408,
+    "ts": 5283217358093.142, "dur": 2.500,
+    "args": {
+      "External id": 597,"Record function id": 0, "Ev Idx": 84
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::as_strided", "pid": 23200, "tid": 27408,
+    "ts": 5283217358094.342, "dur": 1.000,
+    "args": {
+      "External id": 598,"Record function id": 0, "Ev Idx": 85
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 23200, "tid": 27408,
+    "ts": 5283217358098.442, "dur": 8.900,
+    "args": {
+      "External id": 599,"Record function id": 0, "Sequence number": 84, "Ev Idx": 86, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 23200, "tid": 27408,
+    "ts": 5283217358099.142, "dur": 7.900,
+    "args": {
+      "External id": 600,"Record function id": 0, "Sequence number": 84, "Ev Idx": 87, "Fwd thread id": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resolve_conj", "pid": 23200, "tid": 27408,
+    "ts": 5283217358103.642, "dur": 0.100,
+    "args": {
+      "External id": 601,"Record function id": 0, "Ev Idx": 88
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::resolve_conj", "pid": 23200, "tid": 27408,
+    "ts": 5283217358104.342, "dur": 0.000,
+    "args": {
+      "External id": 602,"Record function id": 0, "Ev Idx": 89
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 5283217355364.900, "pid": 23200, "tid": 27408,
+    "args": {
+      "name": "thread 27408 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 5283217355364.900, "pid": 23200, "tid": 27408,
+    "args": {
+      "sort_index": 27408
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 5283217355364.900, "pid": 23200, "tid": 27408,
+    "args": {
+      "name": "thread 27408 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 5283217355364.900, "pid": 23200, "tid": 27408,
+    "args": {
+      "sort_index": 27408
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 5283217355296.800, "dur": 8015.700,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 5283217355296.800,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 5283217355296.800
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 5283217363598.000
+  }
+  ],
+  "traceName": "./log/Quintine_23200.1733026339363949700.pt.trace.json",
+  "displayTimeUnit": "ms",
+  "baseTimeNanoseconds": 1727743122000000000
+}

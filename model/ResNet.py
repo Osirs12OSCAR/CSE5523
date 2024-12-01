@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from model.Hyperparameters import Hyperparameters as hp
-from model.Util import set_seed, EarlyStopping, calculate_accuracy
+from model.Util import set_seed, EarlyStopping, calculate_accuracy, EarlyStoppingWithDynamicPatience
 import sys
 
 class BasicBlock(nn.Module):
@@ -170,7 +170,9 @@ class ResNet(nn.Module):
         optimizer = optim.SGD(self.parameters(), lr=hp.learning_rate,
                               momentum=hp.momentum, weight_decay=hp.weight_decay)
         scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.1)
-        early_stopping = EarlyStopping(patience=hp.patience, verbose=True)
+        # early_stopping = EarlyStopping(patience=hp.patience, verbose=True)
+        early_stopping = EarlyStoppingWithDynamicPatience(patience=hp.patience,  max_patience=hp.max_patience, verbose=True)
+        
 
         train_losses = []
         val_losses = []
@@ -213,10 +215,22 @@ class ResNet(nn.Module):
             scheduler.step()
 
             # Early stopping
-            early_stopping(val_loss, self)
+            
+            # normal early stopping
+            # early_stopping(val_loss, val_accuracy, self)
+            # if early_stopping.early_stop:
+            #     print("Early stopping")
+            #     break
+            
+            # Dynamically adjust patience
+            if early_stopping.best_val_loss is not None and (early_stopping.best_val_loss - val_loss > early_stopping.delta):
+                hp.current_patience = min(hp.current_patience + 5, hp.max_patience)
+
+            early_stopping(val_loss, val_accuracy, self)
             if early_stopping.early_stop:
                 print("Early stopping")
                 break
+            
 
         return {
             'train_losses': train_losses,

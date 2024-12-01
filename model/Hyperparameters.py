@@ -15,19 +15,21 @@ class Hyperparameters:
     maxpool_kernel_size = 3
     maxpool_stride = 2
     maxpool_padding = 1
-    reduction = 16  # For attention modules
+    reduction = 8  # For attention modules 16 for original paper   ## The data for CIFAR-10 is too simple, so we reduce the reduction factor to 8
     spatial_kernel_size = 7  # For spatial attention
     pool_types = ['avg', 'max']  # For channel attention pooling
 
     # Training parameters
-    num_epochs = 50
+    num_epochs = 100
     learning_rate = 0.1
     momentum = 0.9
     weight_decay = 5e-4
     seed = 42
 
     # Early stopping
-    patience = 10
+    patience = 10  # Initial patience
+    max_patience = 20
+    current_patience = patience
 
     # Dataset selection
     dataset = 'CIFAR10'  # Options: 'CIFAR10', 'ImageNet'

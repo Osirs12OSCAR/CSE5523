@@ -4,9 +4,11 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from model.Hyperparameters import Hyperparameters as hp
 import numpy as np
+from model.Util import set_seed
 
 class DataLoaderWrapper:
     def __init__(self):
+        set_seed(hp.seed)
         if hp.dataset == 'CIFAR10':
             self.train_loader, self.val_loader, self.test_loader = self.get_cifar10_loaders()
         elif hp.dataset == 'ImageNet':
@@ -65,7 +67,7 @@ class DataLoaderWrapper:
 
     def get_imagenet_loaders(self):
         # You need to specify the path to your ImageNet dataset
-        data_dir = '/path/to/imagenet'
+        data_dir = './data'
         train_dir = f'{data_dir}/train'
         val_dir = f'{data_dir}/val'
 
