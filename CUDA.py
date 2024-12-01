@@ -6,4 +6,5 @@ if torch.cuda.is_available():
     print("CUDA Version:", torch.version.cuda)
     print("PyTorch Version:", torch.__version__)
 else:
+    print("PyTorch Version:", torch.__version__)
     print("CUDA is not available. Check your installation.")
