@@ -165,6 +165,14 @@ class SEResNet(nn.Module):
             #if early_stopping.early_stop:
                 #print("Early stopping")
                 #break
+            # Dynamically adjust patience
+            if early_stopping.best_val_loss is not None and (early_stopping.best_val_loss - val_loss > early_stopping.delta):
+                hp.current_patience = min(hp.current_patience + 5, hp.max_patience)
+
+            early_stopping(val_loss, val_accuracy, self)
+            if early_stopping.early_stop:
+                print("Early stopping")
+                break
 
         return {
             'train_losses': train_losses,
